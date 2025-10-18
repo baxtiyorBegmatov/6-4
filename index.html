@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black; color: white; text-align: center; font-family: Arial;">
+
+
+  <div style="margin: 20px;">
+    <input id="inputNumber" type="number" placeholder="Enter your number"
+      style="padding:10px 20px; border-radius:20px; border:none; outline:2px solid blue;">
+    <button id="sendBtn" style="padding:10px 20px; border:none; border-radius:20px; background:#333; color:rgb(255, 255, 255);">Send</button>
+  </div>
+
+  <div style="display: inline-flex; align-items: center; background: #222; border-radius: 30px; padding: 20px 40px; box-shadow: 0 4px #111;">
+    <button id="minusBtn" style="background:none; border:none; color:rgb(232, 26, 26); font-size:30px;">−</button>
+    <span id="count" style="font-size:60px; margin: 0 30px; color:red;">0</span>
+    <button id="plusBtn" style="background:none; border:none; color:rgb(16, 236, 0); font-size:30px;">+</button> 
+  </div>
+
+  <div style="margin-top:40px;">
+    <label style="font-size:30px;">Select color</label>
+    <input type="color" id="colorPicker" value="#ff0000" style="width:60px; height:40px; border:none;">
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
